@@ -1,0 +1,9 @@
+.main_container{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    padding-top: 39px;
+    @media(max-width:1410px){
+        padding-top:  calc(20px + 19 * ((100vw - 320px) / (1410 - 320)));
+    }
+}

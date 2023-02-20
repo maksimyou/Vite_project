@@ -1,0 +1,27 @@
+.goods-menu_container{
+width: 330px;
+height: 90px;
+
+}
+.goods-menu_content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.goods-menu_content_image img{
+    width: 90px;
+    height: 90px;
+}
+
+
+.goods-menu_content_text{
+    color: #1A1A25;
+    font: {
+        family: Inter;
+        weight: 400;
+        size: 16px;
+    };
+    line-height: 24px;
+}

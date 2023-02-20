@@ -1,0 +1,150 @@
+.products-promotion-cards_container {
+width: 300px;
+height: 505px;
+background-color:  #ffffff;
+border-radius: 8px;
+
+}
+.products-promotion-cards_container:hover {
+    box-shadow: 0 0 30px 4px rgba(19, 15, 38, 0.1);
+    transition: .3s;
+}
+.products-promotion-cards_content {
+}
+.products-promotion-cards_image_icons {
+    position: relative;
+}
+.products-promotion-cards_image-img{
+background-color: #F0F1F7;
+    width: 300px;
+}
+.products-promotion-cards_icons {
+    position: absolute;
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 10px;
+    left: 10px;
+}
+.products-promotion-cards_icons_1 {
+}
+.products-promotion-cards_icons_percent {
+}
+.products-promotion-cards_icons_like {
+    left: -10px;
+    position: relative;
+}
+.products-promotion-cards_icons_neww {
+    left: -20px;
+    position: relative;
+}
+.products-promotion-cards_icons_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45.4px;
+    cursor: pointer;
+}
+.likes_color_card_disable {
+   color:  #858FA4;
+}
+.products-promotion-cards_info {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.products-promotion-cards_info_has{
+
+}
+
+.cards_info_has_text {
+    font: {
+        family: Inter;
+        weight: 500;
+        size: 12px;
+    };
+    line-height: 15px;
+    color: #2FC509;
+    margin-right: 6px;
+}
+
+.circle_has_info{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 2px;
+    border-radius: 50%;
+    background-color: #2FC509;
+
+}
+.in_the_showroom_has_info{
+    font: {
+        family: Inter;
+        weight: 500;
+        size: 12px;
+    };
+    line-height: 15px;
+    margin-left: 8px;
+    color: #4B7EE8;
+}
+.products-promotion-cards_info_title {
+    margin: 8px 0;
+    font: {
+        family: Inter;
+        weight: 400;
+        size: 17px;
+    };
+    line-height: 20px;
+    color: #1A1A25;
+    margin-right: 6px;
+}
+.products-promotion-cards_info_rating {
+    font: {
+        family: Inter;
+        weight: 500;
+        size: 12px;
+    };
+    line-height: 15px;
+    color: #909CB5;
+}
+.products-promotion-cards_info_stars{
+    margin-left: 6px;
+    color: gold;
+}
+.products-promotion-cards_info_price_and_btn {
+    display: flex;
+    width: 260px;
+    margin: 16px auto 0;
+    justify-content: space-between;
+}
+.products-promotion-cards_info_price {
+}
+.cards_info_price_promotion {
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 17px;
+    };
+    line-height: 23px;
+    color: #1A1A25;
+}
+.cards_info_price_discount {
+    text-decoration: line-through;
+    font: {
+        family: Inter;
+        weight: 400;
+        size: 16px;
+    };
+    line-height: 22px;
+    color: #858FA4;
+}
+.products-promotion-cards_info_btn {
+}
+.icon-bag_iconsvg {
+}
+.icon-bag_iconsvg_price {
+}
+.likes_color_card{
+    color: #F53B49;
+}

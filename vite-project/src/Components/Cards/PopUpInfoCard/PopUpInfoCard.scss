@@ -1,0 +1,53 @@
+.favorites-cards_item {
+    height: 86px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(133, 143, 164, 0.15);
+    border-radius: 1px;
+}
+
+.favorites-cards_item_info {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 335px;
+}
+.favorites-cards_item_info_img {
+    width: 68px;
+    height: 68px;
+
+}
+.favorites-cards_item_info_title {
+    color:  #1A1A25;
+    font: {
+        family: Inter;
+        weight: 400;
+        size: 16px;
+    };
+    
+    line-height: 24px;
+    margin-left: 12px;
+}
+.favorites-cards_item_price_close {
+    width: 118px;
+    height: 68px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 12px;
+}
+.favorites-cards_item_price {
+    color:  #1A1A25;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 14px;
+    };
+    
+    line-height: 17px;
+}
+.favorites-cards_item_close {
+    color: #858FA4;
+    cursor: pointer;
+}

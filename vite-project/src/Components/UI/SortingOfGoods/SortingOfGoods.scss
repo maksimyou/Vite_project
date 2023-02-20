@@ -1,0 +1,113 @@
+.sorting_of_goods_container {
+    //width: 1920px;
+    //margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 30px 0;
+}
+.sorting_of_goods_content {
+    display: flex;
+    max-width: 1410px;
+    margin: 0 auto;
+    justify-content: space-between;
+    @media (max-width: 1280px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.sorting_of_goods_content_filter_and_category {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    @media (max-width: 600px) {
+        display: flex;
+        margin: 16px 0;
+    }
+}
+.sorting_of_goods_content_filter {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Inter;
+    color: #384255;
+    line-height: 15px;
+}
+.sorting_of_goods_content_category {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Inter;
+    color: #384255;
+    line-height: 15px;
+}
+
+.sorting_of_goods_content_banners_tag {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 887px;
+    column-gap: 12px;
+    row-gap: 10px;
+    @media (max-width: 880px) {
+        flex-wrap: nowrap;
+        width: 90%;
+        overflow: scroll;
+    }
+}
+.sorting_of_goods_banners_tag_name {
+    padding: 8px 12px 9px 12px;
+    background-color: rgba(144, 156, 181, 0.2);
+    border-radius: 4px;
+    border: none;
+}
+.sorting_of_goods_banners_tag_name span {
+    color: #384255;
+    white-space: nowrap;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 14px;
+    }
+    line-height: 17px;
+}
+.active_sorting_of_goods_banners_tag_name {
+    border: none;
+    background-color: #f53b49;
+}
+.active_sorting_of_goods_banners_tag_name span {
+    color: #ffffff;
+}
+.sorting_of_goods_content_sorting_method {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
+.sorting_of_goods_content_sorting_method_name {
+}
+.sort_icon {
+    color: #384255;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 2px;
+}
+.sorting_of_goods_content_sorting_method_name {
+    color: #38425577;
+    font: {
+        family: Inter;
+        weight: 400;
+        size: 14px;
+    }
+    line-height: 20px;
+}
+.active_sorting_method_name {
+}
+.active_sorting_method_name {
+    color: #384255;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 14px;
+    }
+    line-height: 17px;
+}

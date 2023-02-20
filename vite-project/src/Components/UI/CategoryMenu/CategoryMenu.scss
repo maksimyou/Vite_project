@@ -1,0 +1,30 @@
+.catalog2_group_for-home{
+    cursor: pointer;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    //justify-content: space-between;
+    padding:0 29px 0 10px;
+    color:  #000000;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 14px;
+    };
+    line-height: 17px;
+}
+.text2_for-home{
+    margin-right: 8px;
+}
+
+.burer_arrow_icon2{
+    color: #909CB5;
+}
+
+
+
+.catalog2_group_for-home:hover{
+
+    background-color: #F6F6F6;
+}

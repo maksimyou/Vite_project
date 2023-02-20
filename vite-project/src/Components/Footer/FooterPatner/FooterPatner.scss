@@ -1,0 +1,65 @@
+.footer-patner_container {
+    
+}
+.footer-patner_content {
+    width: 284px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        @media (max-width: 1205px){
+        flex-direction: column;
+        align-items: flex-start;
+        width: 184px;
+        margin-left: 10px;
+        //width:  calc(140px + 70 * ((100vw - 320px) / (1410 - 320)));
+
+         }
+      
+}
+
+
+.footer-patner_content_btn_become {
+    background-color: #384255;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    justify-content: space-between;
+    @media (max-width: 1205px){
+        background-color: transparent;
+        padding: 0px;
+     }
+}
+
+.footer-patner_content_btn_become span {
+    color: rgb(255, 255, 255);
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 14px;
+    };
+    line-height: 17px;
+    @media (max-width: 1205px){
+        color: #858FA4;
+     }
+
+}
+.footer-patner_content_for_diler_btn {
+    background: transparent;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(144, 156, 181, 0.5) ;
+    @media (max-width: 1205px){
+        border: none;
+        padding: 0px;
+     }
+}
+.footer-patner_content_for_diler_btn span{
+    color: #858FA4;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 14px;
+    };
+    line-height: 17px;
+
+}

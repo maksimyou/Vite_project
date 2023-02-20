@@ -1,0 +1,42 @@
+.footer_subscript__button-sub{
+width: 255px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 14px;
+background-color: rgba(133, 143, 164, 0.15);
+border: none;
+cursor: pointer;
+   @media (max-width: 1205px){
+    margin-bottom: 40px;
+    width: 161px;
+    padding: 0 10px;
+    margin-left: 10px;
+    }
+    @media (max-width: 768px){
+        margin-bottom: 40px;
+        width: 255px;
+        padding: 0 14px;
+        }
+}
+.footer_subscript_text{
+    color:  #858FA4;
+    font: {
+        family: Inter;
+        weight: 400;
+        size: 14px;
+    };
+    line-height: 19px;
+
+}
+.footer_subscript_icon{
+color: rgb(133, 143, 164);
+font-size: 14px;
+}
+
+
+.footer_subscript_button{
+    display: flex;
+    flex-direction: column;
+}

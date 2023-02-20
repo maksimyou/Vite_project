@@ -1,0 +1,60 @@
+
+.ideas_and_collections_content_navigation{
+    //margin: 0 0 38px 0;
+    padding-top: 38px;
+    width: 196px;
+    height: 58px;
+}
+.ideas_and_collections_content_navigation_showall{
+    color: #F53B49;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.ideas_and_collections_content_all-page span{
+
+    color: #909CB5;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.ideas_and_collections_content_all-page a{
+
+    color: #909CB5;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.ideas_and_collections_content_navigation_pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+
+.ideas_and_collections_content_current-page a{
+    text-align: center;
+    color: #1A1A25;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    width: 27px;    
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}

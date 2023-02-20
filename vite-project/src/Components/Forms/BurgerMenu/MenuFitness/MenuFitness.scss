@@ -1,0 +1,17 @@
+.burger-fitness_content{
+    background-color: #2A2C38;
+    min-width: 320px;
+    max-height: 720px;
+    overflow: scroll;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-300%);
+    transition: .4s;
+    z-index: 2;
+}
+.burger-fitness-active{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-200%);
+    transition: .4s;
+}

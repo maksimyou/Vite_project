@@ -1,0 +1,319 @@
+.fitness-club_container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.fitness-club_content {
+
+    max-width: 1410px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    @media (max-width:800px){
+    gap: 10px;
+    }
+}
+
+.fitness-club_content_title {
+    width: 100%;
+    color:  #000000;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 43px;
+    };
+    margin: 120px 0 30px 20px;
+    //line-height: 33px;
+    @media (max-width:1410px){
+       font-size: calc(28px + 1 * ((100vw - 320px) / (1410 - 320)));
+       margin:  calc(80px + 40 * ((100vw - 320px) / (1410 - 320)))  0 30px 10px;
+    
+      }
+      @media (max-width:800px){
+    text-align: center;
+      }
+}
+.fitness-club_content_line-1 {
+    display: flex;
+    gap: 30px;
+    @media (max-width:800px){
+    flex-direction: column;
+    gap: 10px;
+        }
+}
+.line-1_fitness-club_block1 {
+    background-image: url('../../../assets/img/fitnes-1.png');
+    background-color: #E9EAEF;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border-radius: 5px;
+    cursor: pointer;
+    width: 690px;
+    height: 280px;
+    @media (max-width:1410px){
+        width: calc(460px + 230 * ((100vw - 960px) / (1410 - 960)));
+        height: calc(190px + 90 * ((100vw - 960px) / (1410 - 960)));
+    
+      }
+  
+      @media (max-width:800px){
+        //width:  calc(320px + 160 * ((100vw - 320px) / (800 - 320)));
+        width:  calc(318px + 94 * ((100vw - 320px) / (800 - 320)));
+
+        height: 140px;
+        background-position-y: bottom;
+        }
+
+
+}
+
+.line-1_fitness-club_block2 {
+    display: flex;
+    gap: 30px;
+    @media (max-width:800px){
+      justify-content: space-between;
+      gap: 10px;
+            }
+
+}
+.line-1_fitness-club_block2_image1 {
+    background-image: url('../../../assets/img/fitnes-2.png');
+
+    background-color: #E9EAEF;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 280px;
+  width: 330px;
+  border-radius: 5px;
+  cursor: pointer;
+  @media (max-width:1410px){
+      width: calc(220px + 110 * ((100vw - 960px) / (1410 - 960)));
+      height: calc(190px + 90 * ((100vw - 960px) / (1410 - 960)));
+  
+    }
+
+    @media (max-width:800px){
+      width:  calc(154px + 47 * ((100vw - 320px) / (800 - 320)));
+      height: 140px;
+      background-position-y: bottom;
+      }
+}
+.line-1_fitness-club_block2_image1_text1 {
+}
+.line-1_fitness-club_block2_image2 {
+    background-image: url('../../../assets/img/fitnes-3.png');
+
+    background-color: #E9EAEF;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 280px;
+  width: 330px;
+  border-radius: 5px;
+  cursor: pointer;
+  @media (max-width:1410px){
+      width: calc(220px + 110 * ((100vw - 960px) / (1410 - 960)));
+      height: calc(190px + 90 * ((100vw - 960px) / (1410 - 960)));
+  
+    }
+
+    @media (max-width:800px){
+      width:  calc(154px + 47 * ((100vw - 320px) / (800 - 320)));
+      height: 140px;
+      background-position-y: bottom;
+      }
+}
+.line-1_fitness-club_block2_image2_text2 {
+}
+.fitness-club_content_line-2 {
+    display: flex;
+    gap: 30px;
+    @media (max-width:800px){
+        flex-direction: column;
+        gap: 10px;
+              }
+}
+.line-2_fitness-club_block1 {
+    display: flex;
+    gap: 30px;
+    @media (max-width:800px){
+        justify-content: space-between;
+        //width:  calc(300px + 160 * ((100vw - 320px) / (800 - 320)));
+        gap: 10px;
+    }
+              
+    
+}
+.line-2_fitness-club_block1_image1 {
+
+    background-image: url('../../../assets/img/fitnes-4.png');
+    background-color: #E9EAEF;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 280px;
+  width: 330px;
+  border-radius: 5px;
+  cursor: pointer;
+  @media (max-width:1410px){
+      width: calc(220px + 110 * ((100vw - 960px) / (1410 - 960)));
+      height: calc(190px + 90 * ((100vw - 960px) / (1410 - 960)));
+  
+    }
+
+    @media (max-width:800px){
+      width:  calc(154px + 47 * ((100vw - 320px) / (800 - 320)));
+      height: 140px;
+      background-position-y: bottom;
+      }
+}
+
+
+.line-2_fitness-club_block1_image1_text1 {
+}
+.line-2_fitness-club_block1_image2 {
+    background-image: url('../../../assets/img/fitnes-5.png');
+
+    background-color: #E9EAEF;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 280px;
+  width: 330px;
+  border-radius: 5px;
+  cursor: pointer;
+  @media (max-width:1410px){
+      width: calc(220px + 110 * ((100vw - 960px) / (1410 - 960)));
+      height: calc(190px + 90 * ((100vw - 960px) / (1410 - 960)));
+  
+    }
+
+    @media (max-width:800px){
+      width:  calc(154px + 47 * ((100vw - 320px) / (800 - 320)));
+      height: 140px;
+      background-position-y: bottom;
+      }
+}
+.line-2_fitness-club_block1_image2_text2 {
+}
+.line-2_fitness-club_block2 {
+    display: flex;
+    gap: 30px;
+    @media (max-width:800px){
+        justify-content: space-between;
+        gap: 10px;
+              }
+}
+.line-2_fitness-club_block2_image1 {
+    background-image: url('../../../assets/img/fitnes-6.png');
+
+    background-color: #E9EAEF;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 280px;
+  width: 330px;
+  border-radius: 5px;
+  cursor: pointer;
+  @media (max-width:1410px){
+      width: calc(220px + 110 * ((100vw - 960px) / (1410 - 960)));
+      height: calc(190px + 90 * ((100vw - 960px) / (1410 - 960)));
+  
+    }
+
+    @media (max-width:800px){
+      width:  calc(154px + 47 * ((100vw - 320px) / (800 - 320)));
+      height: 140px;
+      background-position-y: bottom;
+      }
+}
+.line-2_fitness-club_block2_image1_text1 {
+}
+.line-2_fitness-club_block2_image2 {
+    background-image: url('../../../assets/img/fitnes-7.png');
+
+    background-color: #E9EAEF;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 280px;
+  width: 330px;
+  border-radius: 5px;
+  cursor: pointer;
+  @media (max-width:1410px){
+      width: calc(220px + 110 * ((100vw - 960px) / (1410 - 960)));
+      height: calc(190px + 90 * ((100vw - 960px) / (1410 - 960)));
+  
+    }
+
+    @media (max-width:800px){
+      width:  calc(154px + 47 * ((100vw - 320px) / (800 - 320)));
+      height: 140px;
+      background-position-y: bottom;
+      }
+}
+.line-2_fitness-club_block2_image2_text2 {
+}
+
+.title_fitness-club_card{
+    display: inline-block;
+    color:  #000000;
+    font: {
+        family: Inter;
+        weight: 800;
+        size: 20px;
+    };
+
+    @media (max-width:1410px){
+      font-size: calc(13px + 7 * ((100vw - 960px) / (1410 - 960)));
+       margin-top: calc(20px + 10 * ((100vw - 960px) / (1410 - 960)));
+       margin-left: calc(20px + 10 * ((100vw - 960px) / (1410 - 960)));
+
+      }
+
+      @media (max-width:960px){
+        font-size: 13px;
+      }
+      @media (max-width:800px){
+        margin-top: 20px;
+        margin-left: 20px;
+        
+      }
+      @media (min-width:1410px){
+
+        margin-top: 30px;
+        margin-left: 30px;
+
+      }
+
+}
+.fitness-club_button{
+    margin-top: 30px;
+    width: 180px;
+}
+
+.fitness-club_button_content{
+  width: 100%;
+  
+}
+.simylator_active_bgr{
+  background-color: #0d101284;
+  transition: .4s;
+  }
+  
+  
+  .simylator_active_text{
+  color: white;
+  transition: .4s;
+  }

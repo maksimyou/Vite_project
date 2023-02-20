@@ -1,0 +1,26 @@
+.button {
+    padding: 0 21.5px;
+    width: 84px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F53B49;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.textt{
+    color: white;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 14px;
+    };
+    line-height: 16px;
+}
+.icon_style{
+    color: white;
+    margin-right:  8px;
+    font-size: 20px;
+}

@@ -1,0 +1,126 @@
+.container_order_call {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 37, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.order_call_content {
+    
+    width: 600px;
+    height: 452px;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @media(max-width:1410px){
+        width: calc(310px + 290 * ((100vw - 320px) / (1410 - 320)));
+    
+    }
+
+    @media(max-width:630px){
+        padding-bottom: 40px;
+    
+    }
+}
+.order_call_content_close{
+width: 90%;
+display: flex;
+justify-content: flex-end;
+margin-bottom: 29px;
+cursor: pointer;
+}
+.order_call_content_title {
+
+    color:  #1A1A25;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 30px;
+    };
+    line-height: 33px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    @media(max-width:1410px){
+        font-size: calc(24px + 7 * ((100vw - 320px) / (1410 - 320)));
+    }
+
+}
+.order_call_form_lable{
+    color:  #1A1A25;
+    font: {
+        family: Inter;
+        weight: 400;
+        size: 16px;
+    };
+    line-height: 24px;
+    margin-bottom: 4px;
+   
+}
+.order_call_form_lable span{
+    color:rgba(245, 59, 73, 1);
+}
+.order_call_content_form {
+    width: 510px;
+    height: 290px;
+
+    @media(max-width:1410px){
+        width: calc(272px + 238 * ((100vw - 320px) / (1410 - 320)));
+    
+    }
+}
+.order_call_form_input{
+background: #F6F6F6;
+border:1px solid #F6F6F6;
+    width: 100%;
+    height: 50px;
+
+    color:  #909CB5;
+    font: {
+        family: Inter;
+        weight: 400;
+        size: 16px;
+    };
+    line-height: 24px;
+    padding: 0 0 0 10px;
+    margin-bottom: 12px;
+    outline: none;
+    border-radius: 4px;
+}
+.order_call_content_agreement {
+    color:  #909CB5;
+    font: {
+        family: Inter;
+        weight: 500;
+        size: 14px;
+    };
+    line-height: 20px;
+    margin:8px 0 20px 0;
+}
+
+.order_call_content_agreement a {
+    color:rgba(245, 59, 73, 1);
+
+}
+.order_call_content_wrap{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.order_call_active{
+   visibility: visible;
+    opacity: 1;
+    transition: .5s;
+}

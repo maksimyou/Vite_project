@@ -1,0 +1,32 @@
+.ideas_and_collections_container{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+}
+.ideas_and_collections_content{
+    max-width: 1410px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ideas_and_collections_content_items{
+    width: 1410px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+    gap: 30px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+
+    @media(max-width:1410px){
+        width: calc(320px + 1090 * ((100vw - 320px) / (1410 - 320)));
+
+    }
+    @media(max-width:1072px){
+        grid-template-columns: minmax(300px, 1fr);
+        gap: 15px;
+
+    }
+}

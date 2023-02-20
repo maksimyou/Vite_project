@@ -1,0 +1,104 @@
+.catalog-menu_wrap{
+    width: 100%;
+    position: absolute;
+    min-height: 89vh;
+    top: 83px;
+    left: 0px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.363);
+
+}
+
+.catalog-menu_container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.catalog-menu_content {
+    max-width: 1410px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.catalog-menu_content__header {
+    height: 50px;
+    border-bottom: 1px solid rgba(133, 143, 164, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+
+.selected_header{
+    position: relative;
+}
+
+.selected_header::before{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    transform: rotate(45deg);
+    width: 13.5px;
+    height: 13.5px;
+    background-color: white;
+    top: -20px;
+    left: 60px;
+
+
+}
+
+
+.catalog-menu_content__header_for-home {
+    margin-right: 36px;
+}
+
+
+.section-menu {
+color: #1A1A25;
+    font: {
+        family: Inter;
+        weight: 500;
+        size: 16px;
+    };
+    line-height: 20px;
+    text-decoration:none;
+}
+.section-menu-active {
+    color: #1A1A25;
+    font: {
+        family: Inter;
+        weight: 700;
+        size: 16px;
+    };
+    line-height: 20px;
+    text-decoration:none;
+
+}
+
+.catalog-menu_content__header_for-fitness {
+    //font-weight: 500;
+}
+
+
+.catalog-menu_content__main {
+    display: flex;
+    
+}
+
+
+.catalog-menu_content__main_sidebar_categories {
+    padding: 31px 0 36px 0;
+    border-right: 1px solid rgba(133, 143, 164, 0.2);
+    width: 327px;
+}
+
+
+.catalog-menu_content__main_goods {
+    padding: 31px 0 36px 31px;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
